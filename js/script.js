@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const motorList = document.getElementById("motor-list");
     const motors = [
         { name: "Honda Beat FI", price: 60, image: "https://enoanderson.com/wp-content/uploads/2014/04/beat-orange.jpg?w=768" },
-        { name: "Yamaha FreeGo", price: 70, image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//96/MTA-91129344/yamaha_yamaha_full11.jpg" },
-        { name: "Honda Beat Street", price: 80, image: "https://imgcdn.oto.com/large/gallery/color/73/2269/honda-beat-street-esp-color-995908.jpg" }
+        { name: "Yamaha FreeGo", price: 80, image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//96/MTA-91129344/yamaha_yamaha_full11.jpg" },
+        { name: "Honda Beat Street", price: 70, image: "https://imgcdn.oto.com/large/gallery/color/73/2269/honda-beat-street-esp-color-995908.jpg" }
     ];
 
     motors.forEach(motor => {
