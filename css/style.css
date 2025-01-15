@@ -1,0 +1,102 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #e6b400;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+main {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.image-container {
+    display: flex; /* Aktifkan Flexbox pada kontainer gambar */
+    justify-content: center; /* Posisi horizontal ke tengah */
+    align-items: center; /* Posisi vertikal ke tengah */
+    height: 100%; /* Sesuaikan dengan tinggi wadah */
+    width: 100%; /* Pastikan mengambil seluruh lebar */
+}
+
+.image {
+    max-width: 500px; /* Batasi lebar maksimal gambar */
+    height: auto; /* Pertahankan rasio aspek gambar */
+}
+
+#catalog {
+    padding: 0rem;
+}
+
+#catalog .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#catalog .catalog div {
+    border: 2px solid #e6b400;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: calc(33.333% - 1rem);
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+#catalog .catalog div img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #e6b400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+form button:hover {
+    background-color: #e47200;
+}
+
+footer {
+    text-align: center;
+    background-color: #e6b400;
+    color: white;
+    padding: 1rem 0;
+}
